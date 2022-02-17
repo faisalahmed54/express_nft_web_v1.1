@@ -1478,9 +1478,10 @@ header {
 }
 
 .header_1 {
-    position: absolute;
+    /* position: absolute; */
+    /* background: #000; */
     z-index: 100;
-    height: 80px;
+    height: 7%;
     width: 100%;
     border-bottom: 1px solid rgba(235, 235, 235, 0.2);
     -webkit-transition: all 0.5s ease;
@@ -1513,7 +1514,7 @@ header {
     position: absolute;
     display: flex;
     left: 15%;
-    top: 50%;
+    top: 25%;
     z-index: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -2393,6 +2394,7 @@ header {
     top: -161px;
     left: 0;
     width: 100%;
+    height: auto;
     box-shadow: 1px 1px 5px 0px rgb(0 0 0 / 30%);
     z-index: 9999;
     /* background: linear-gradient( 227.3deg, #8A208C 0%, #181B81 100.84%); */
@@ -3642,4 +3644,13 @@ span.type::after {
     background: transparent !important;
     box-shadow: none !important;
     
+}
+
+.logoCustomPadding{
+    position: relative;
+    top: -150px;
+    z-index: 1;
+}
+.firstHeaderCustom{
+    margin: 2% 30% 0% 2%;
 }
