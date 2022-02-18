@@ -2073,7 +2073,7 @@ header {
     display: block;
     margin: 0 auto;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     top: 100%;
     left: 0;
     z-index: 999999;
@@ -3626,7 +3626,7 @@ span.type::after {
 }
 
 .animal_video {
-   padding-top:2% ;
+    padding-top: 2%;
 }
 
 .animal_video_gameplay {
@@ -3636,21 +3636,22 @@ span.type::after {
 .gameplay_items {
     width: 100% !important;
 }
-.roadmap_image{
+
+.roadmap_image {
     width: 700px !important;
-    
-}
-.roadmap_card{
-    background: transparent !important;
-    box-shadow: none !important;
-    
 }
 
-.logoCustomPadding{
+.roadmap_card {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.logoCustomPadding {
     position: relative;
     top: -150px;
     z-index: 1;
 }
-.firstHeaderCustom{
+
+.firstHeaderCustom {
     margin: 2% 30% 0% 2%;
 }

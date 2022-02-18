@@ -273,9 +273,13 @@
         mobile.addListener(responsivemenu);
 
         function responsivemenu(mobile) {
-            console.log(mobile.matches);
             if (mobile.matches) {
-                $("#main-nav")
+                // $(".menu_custom").show();
+                $('.menu_custom').css('display', 'block');
+                $('#menu_custom1').hide();
+                $('#menu_custom2').hide();
+
+                $("#menu_custom")
                     .attr("id", "main-nav-mobi")
                     .appendTo("#header_main")
                     .hide()
@@ -288,7 +292,7 @@
                     .before('<span class="arrow"></span>');
             } else {
                 $("#main-nav-mobi")
-                    .attr("id", "main-nav")
+                    .attr("id", "menu_custom")
                     .removeAttr("style")
                     .prependTo(wrapMenu)
                     .find(".ext")
@@ -299,7 +303,10 @@
                     .removeAttr("style")
                     .prev()
                     .remove();
-
+                // $(".menu_custom").hide();
+                $('.menu_custom').css('display', 'none');
+                $('#menu_custom1').show();
+                $('#menu_custom2').show();
                 $(".mobile-button").removeClass("active");
                 $(".mobile-button-style2").removeClass("active");
                 $(".sub-menu").css({ display: "block" });
