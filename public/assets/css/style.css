@@ -3655,3 +3655,20 @@ span.type::after {
 .firstHeaderCustom {
     margin: 2% 30% 0% 2%;
 }
+#gameplay{
+    background:url(../example_images/photos-001/image.png)center center fixed no-repeat;
+}
+#assets{
+    background:url(../example_images/photos-001/image2.png)center center fixed no-repeat;
+}
+#roadmap{
+    background:url(../example_images/photos-001/image3.png)center center fixed no-repeat;
+}
+#token{
+    background:url(../example_images/photos-001/image4.png)center center fixed no-repeat;
+}
+#technology{
+    background:url(../example_images/photos-001/image5.png)center center fixed no-repeat;
+}#faq{
+    background:url(../example_images/photos-001/image1.png)center center fixed no-repeat;
+}

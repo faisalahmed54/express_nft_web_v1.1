@@ -1750,7 +1750,7 @@
 
 .flat-title-page {
     position: relative;
-    background: url(../images/backgroup-secsion/img_bg_page_title.jpg) center center fixed no-repeat;
+    background: url(../example_images/JUNGLE_concept_FINAL.jpg)center center fixed no-repeat;
     background-size: cover;
     padding: 100px 0 99px;
 }
@@ -1953,12 +1953,12 @@
 .swiper-slide-active .flat-slider .heading {
     opacity: 1;
     visibility: visible;
-    /*-webkit-transition: transform 1000ms ease, opacity 1000ms ease;
+    -webkit-transition: transform 1000ms ease, opacity 1000ms ease;
     -moz-transition: transform 1000ms ease, opacity 1000ms ease;
     -ms-transition: transform 1000ms ease, opacity 1000ms ease;
     -o-transition: transform 1000ms ease, opacity 1000ms ease;
     transition: transform 1000ms ease, opacity 1000ms ease;
-    transition-delay: 1000ms; */
+    transition-delay: 1000ms;
 }
 
 .home.s1 .heading,
@@ -2002,12 +2002,12 @@
 .flat-title-page.inner {
     padding: 139px 0 59px;
     position: relative;
-    background: url(../images/backgroup-secsion/img_bg_page_title_inner.jpg) center center no-repeat;
+    background: url(../example_images/JUNGLE_concept_FINAL.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .is_dark .flat-title-page.inner {
-    background: url(../images/backgroup-secsion/img_bg_page_title_dark.jpg) center center no-repeat;
+    background:url(../example_images/JUNGLE_concept_FINAL.jpg) center center no-repeat;
     background-size: cover;
 }
 
