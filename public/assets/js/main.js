@@ -273,6 +273,7 @@
         mobile.addListener(responsivemenu);
 
         function responsivemenu(mobile) {
+            console.log(mobile.matches);
             if (mobile.matches) {
                 $("#main-nav")
                     .attr("id", "main-nav-mobi")
