@@ -278,7 +278,9 @@
                 $('.menu_custom').css('display', 'block');
                 $('#menu_custom1').hide();
                 $('#menu_custom2').hide();
-
+                $("#walletMainBtn").hide();
+                $("#secondRow").hide();
+$(".logoCustomPadding").css('top','-12px');
                 $("#menu_custom")
                     .attr("id", "main-nav-mobi")
                     .appendTo("#header_main")
@@ -307,6 +309,10 @@
                 $('.menu_custom').css('display', 'none');
                 $('#menu_custom1').show();
                 $('#menu_custom2').show();
+                $("#walletMainBtn").show();
+                $("#secondRow").show();
+                $(".logoCustomPadding").css('top','-150px');
+
                 $(".mobile-button").removeClass("active");
                 $(".mobile-button-style2").removeClass("active");
                 $(".sub-menu").css({ display: "block" });
