@@ -311,7 +311,7 @@ $(".logoCustomPadding").css('top','-12px');
                 $('#menu_custom2').show();
                 $("#walletMainBtn").show();
                 $("#secondRow").show();
-                $(".logoCustomPadding").css('top','-150px');
+                $(".logoCustomPadding").css('top','-144px;');
 
                 $(".mobile-button").removeClass("active");
                 $(".mobile-button-style2").removeClass("active");
