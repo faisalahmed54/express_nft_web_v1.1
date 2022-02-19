@@ -2,9 +2,30 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
+  "script": "./bin/www",
   "scripts": {
     "start": "node ./bin/www"
   },
+  "exec_mode": "cluster",
+    "instances": 1,
+    "watch": true,
+    "ignore_watch": [
+        "logs",
+        "public",
+        "node_modules",
+        ".git",
+        "sample_config"
+    ],
+    "watch_options": {
+        "usePolling": false,
+        "alwaysStat": false,
+        "useFsEvents": true
+    },
+    "env": {
+        "NODE_ENV": "development",
+        "PORT": 3000,
+        "MONITORING": true
+    },
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
