@@ -3656,23 +3656,32 @@ span.type::after {
 .firstHeaderCustom {
     margin: 2% 30% 0% 2%;
 }
+#main_section{
+    text-shadow: 2px 3px #000;
+}
 #gameplay{
+    text-shadow: 2px 2px #000;
     background:url(../example_images/photos-001/image.png)center center fixed no-repeat;
 }
 #assets{
+    text-shadow: 2px 3px #000;
     background:url(../example_images/ocean.jpg)center center fixed no-repeat;
 }
 #roadmap{
+    text-shadow: 2px 3px #000;
     /* background:url(../example_images/photos-001/image3.png)center center fixed no-repeat; */
     background: #0C324F  !important;
 }
 #token{
+    text-shadow: 2px 3px #000;
     background: #102435  !important;
     /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
 }
 #technology{
+    text-shadow: 2px 3px #000;
     /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
 }#faq{
+    /* text-shadow: 2px 3px #000; */
     /* background:url(../example_images/photos-001/image1.png) ; */
     background: #102435  !important;
 }
