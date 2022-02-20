@@ -1,17 +1,30 @@
-console.log("Hello Home", $("#gameplay"));
+// console.log("Hello Home", $("#gameplay"));
 
 function click_events() {
 
    $("#light_btn").trigger('click');
 
-    $('#gameplay').click(function () {
+    $('#gameplayMenu').click(function () {
         $('html, body').animate({
-            scrollTop: $("#live_auctions").offset().top
+            scrollTop: $("#gameplay").offset().top
         }, 1000)
     });
-    $('#roadmap').click(function () {
+    $('.gameplayMenu').click(function () {
         $('html, body').animate({
-            scrollTop: $("#top_sellers").offset().top
+            scrollTop: $("#gameplay").offset().top
+        }, 1000)
+    });
+  
+    $('#roadmapMenu').click(function () {
+        console.log("Hello roadmap")
+        $('html, body').animate({
+            scrollTop: $("#roadmap").offset().top
+        }, 1000)
+    });
+    $('.roadmapMenu').click(function () {
+        console.log("Hello roadmap")
+        $('html, body').animate({
+            scrollTop: $("#roadmap").offset().top
         }, 1000)
     });
     $('#marketplace').click(function () {
@@ -27,6 +40,16 @@ function click_events() {
     $('#team').click(function () {
         $('html, body').animate({
             scrollTop: $("#create_and_sell").offset().top
+        }, 1000)
+    });
+    $('#home').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#main_section").offset().top
+        }, 1000)
+    });
+    $('.homeMenu').click(function () {
+        $('html, body').animate({
+            scrollTop: $("#main_section").offset().top
         }, 1000)
     });
 }

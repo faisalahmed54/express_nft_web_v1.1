@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     let data = {};
     data.page_id = "index";
-    data.title = "Home";
+    data.title = "Super Vet";
     data.page_assets = {
         "css": false,
         "js": false,

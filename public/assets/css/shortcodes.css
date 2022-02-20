@@ -429,7 +429,9 @@
 .sc-button.style.rocket span::before {
     content: "\e91d";
 }
-
+.sc-button.style.paper-plane span::before {
+    content: "\f1d8";
+}
 .sc-button.style.note span::before {
     content: "\e91b";
     font-size: 20px;
