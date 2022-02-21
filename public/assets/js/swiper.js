@@ -275,7 +275,7 @@ var swiper = new Swiper(".carousel6", {
     //     disableOnInteraction: false,
     //     },
     slidesPerView: 1,
-    loop: false,
+    loop: true,
     spaceBetween: 30,
     navigation: {
         clickable: true,
