@@ -3666,7 +3666,7 @@ span.type::after {
 }
 #assets{
     text-shadow: 2px 3px #000;
-    background:url(../example_images/ocean.jpg)center center fixed no-repeat;
+    background:url(../example_images/ocean_opt.jpg)center center fixed no-repeat;
 }
 #roadmap{
     text-shadow: 2px 3px #000;

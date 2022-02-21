@@ -2004,12 +2004,12 @@
 .flat-title-page.inner {
     padding: 139px 0 59px;
     position: relative;
-    background: url(../example_images/JUNGLE_concept_FINAL.jpg) center center no-repeat;
+    background: url(../example_images/JUNGLE_concept_FINAL_opt.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .is_dark .flat-title-page.inner {
-    background:url(../example_images/JUNGLE_concept_FINAL.jpg) center center no-repeat;
+    background:url(../example_images/JUNGLE_concept_FINAL_opt.jpg) center center no-repeat;
     background-size: cover;
 }
 
