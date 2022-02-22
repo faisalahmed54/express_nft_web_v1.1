@@ -276,7 +276,7 @@
     mobile.addListener(responsivemenu);
 
     function responsivemenu(mobile) {
-      console.log(mobile.matches);
+      //console.log(mobile.matches);
 
       if (mobile.matches) {
         // $(".menu_custom").show();
