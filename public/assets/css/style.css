@@ -2520,7 +2520,7 @@ header {
 
 #footer {
     padding: 80px 0 80px;
-    background-color: #0C324F  !important;
+    background-color: #0C324F !important;
     /* background-color: #fff; */
 }
 
@@ -3650,39 +3650,55 @@ span.type::after {
 
 .logoCustomPadding {
     position: relative;
-    top: -144px;;
+    top: -144px;
+    ;
     z-index: 1;
 }
 
 .firstHeaderCustom {
     margin: 2% 30% 0% 2%;
 }
-#main_section{
+
+#main_section {
     text-shadow: 2px 3px #000;
 }
-#gameplay{
+
+#gameplay {
     text-shadow: 2px 2px #000;
-    background:url(../example_images/photos-001/image.png)center center fixed no-repeat;
+    background: url(../example_images/photos-001/image.png)center center fixed no-repeat;
 }
-#assets{
+
+#assets {
     text-shadow: 2px 3px #000;
-    background:url(../example_images/ocean_opt.jpg)center center fixed no-repeat;
+    background: url(../example_images/ocean_opt.jpg)center center fixed no-repeat;
 }
-#roadmap{
+
+#roadmap {
     text-shadow: 2px 3px #000;
     /* background:url(../example_images/photos-001/image3.png)center center fixed no-repeat; */
-    background: #0C324F  !important;
+    background: #0C324F !important;
 }
-#token{
+
+#token {
     text-shadow: 2px 3px #000;
-    background: #102435  !important;
+    background: #102435 !important;
     /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
 }
-#technology{
+
+#technology {
     text-shadow: 2px 3px #000;
     /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
-}#faq{
+}
+
+#faq {
     /* text-shadow: 2px 3px #000; */
     /* background:url(../example_images/photos-001/image1.png) ; */
-    background: #102435  !important;
+    background: #102435 !important;
+}
+
+.sc-card-product-custom {
+    padding: 0px !important;
+    background: none;
+    border-radius: 0%;
+    box-shadow: none;
 }
