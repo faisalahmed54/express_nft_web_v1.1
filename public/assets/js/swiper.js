@@ -21,7 +21,7 @@ var swiper = new Swiper(".carousel", {
     autoplay: {
         delay: 1000,
         disableOnInteraction: false,
-        },
+    },
     loop: true,
     slidesPerView: 1,
     spaceBetween: 30,
@@ -327,8 +327,8 @@ var swiper = new Swiper(".carousel7", {
             spaceBetween: 30,
         },
         1200: {
-            slidesPerView: 4,
-            spaceBetween: 30,
+            slidesPerView: 3,
+            spaceBetween: 1,
         },
     },
 });

@@ -2,52 +2,50 @@
 
 function click_events() {
 
-   $("#light_btn").trigger('click');
+    $("#light_btn").trigger('click');
 
-    $('#gameplayMenu').click(function () {
+    $('#gameplayMenu').click(function() {
         $('html, body').animate({
             scrollTop: $("#gameplay").offset().top
         }, 1000)
     });
-    $('.gameplayMenu').click(function () {
+    $('.gameplayMenu').click(function() {
         $('html, body').animate({
             scrollTop: $("#gameplay").offset().top
         }, 1000)
     });
-  
-    $('#roadmapMenu').click(function () {
-        console.log("Hello roadmap")
+
+    $('#roadmapMenu').click(function() {
         $('html, body').animate({
             scrollTop: $("#roadmap").offset().top
         }, 1000)
     });
-    $('.roadmapMenu').click(function () {
-        console.log("Hello roadmap")
+    $('.roadmapMenu').click(function() {
         $('html, body').animate({
             scrollTop: $("#roadmap").offset().top
         }, 1000)
     });
-    $('#marketplace').click(function () {
+    $('#marketplace').click(function() {
         $('html, body').animate({
             scrollTop: $("#today_pick").offset().top
         }, 1000)
     });
-    $('#tokenomics').click(function () {
+    $('#tokenomics').click(function() {
         $('html, body').animate({
             scrollTop: $("#popular_collection").offset().top
         }, 1000)
     });
-    $('#team').click(function () {
+    $('#team').click(function() {
         $('html, body').animate({
             scrollTop: $("#create_and_sell").offset().top
         }, 1000)
     });
-    $('#home').click(function () {
+    $('#home').click(function() {
         $('html, body').animate({
             scrollTop: $("#main_section").offset().top
         }, 1000)
     });
-    $('.homeMenu').click(function () {
+    $('.homeMenu').click(function() {
         $('html, body').animate({
             scrollTop: $("#main_section").offset().top
         }, 1000)

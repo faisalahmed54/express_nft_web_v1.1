@@ -429,9 +429,11 @@
 .sc-button.style.rocket span::before {
     content: "\e91d";
 }
+
 .sc-button.style.paper-plane span::before {
     content: "\f1d8";
 }
+
 .sc-button.style.note span::before {
     content: "\e91b";
     font-size: 20px;
@@ -2009,7 +2011,7 @@
 }
 
 .is_dark .flat-title-page.inner {
-    background:url(../example_images/JUNGLE_concept_FINAL_opt.jpg) center center no-repeat;
+    background: url(../example_images/JUNGLE_concept_FINAL_opt.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -2271,16 +2273,16 @@ section.tf-section.live-auctions.home3 {
 }
 
 .seller .swiper-button-next.btn-slide-next {
-    right: 43.9%;
+    right: 40.8%;
 }
 
 .auctions .swiper-button-next.btn-slide-next {
-    right: 43.8%;
+    right: 40.8%;
 }
 
 .seller .swiper-button-prev.btn-slide-prev,
 .auctions .swiper-button-prev.btn-slide-prev {
-    left: 44.5%;
+    left: 40.8%;
 }
 
 .swiper-button-next.btn-slide-next::after,
