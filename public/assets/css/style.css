@@ -3673,10 +3673,15 @@ span.type::after {
     background: url(../example_images/ocean_opt.jpg)center center fixed no-repeat;
 }
 
+#characters {
+    text-shadow: 2px 3px #000;
+    background:url(../example_images/grass_and_well_concept_MEDIUM_RES-min.jpg)center center fixed no-repeat; 
+    /* background: #0C324F !important; */
+}
 #roadmap {
     text-shadow: 2px 3px #000;
-    /* background:url(../example_images/photos-001/image3.png)center center fixed no-repeat; */
-    background: #0C324F !important;
+    
+    background: #102435 !important;
 }
 
 #token {
