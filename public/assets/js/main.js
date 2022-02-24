@@ -247,7 +247,7 @@
           }).insertAfter(nav);
         $(window).on("load scroll", function () {
           if ($(window).scrollTop() > 200) {
-            nav.addClass("is-fixed");
+            // nav.addClass("is-fixed");
             injectSpace.show();
           } else {
             nav.removeClass("is-fixed");
