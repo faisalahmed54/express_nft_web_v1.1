@@ -3641,9 +3641,28 @@ span.type::after {
 
 .roadmap_image {
     width: 439px !important;
+    animation: move4 2s infinite linear;
 }
 
 .roadmap_card {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.characters_image {
+    width: 439px !important;
+    animation: move2 2s infinite linear;
+}
+
+.characters_card {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+.assets_image {
+    width: 439px !important;
+    animation: move3 2s infinite linear;
+}
+
+.assets_card {
     background: transparent !important;
     box-shadow: none !important;
 }
@@ -3682,7 +3701,9 @@ span.type::after {
     text-shadow: 2px 3px #000;
     
     /* background: #102435 !important; */
-    background: #102435 !important;
+    /* background: #102435 !important; */
+    background: url(../example_images/JUNGLE_concept_FINAL_opt.jpg)center center fixed no-repeat;
+
 }
 
 #token {
@@ -3751,5 +3772,14 @@ span.type::after {
     left: 89%;
     top: 0%;
   animation: move5 3s infinite linear;
+  }  .coin3 {
+    /* object-fit: cover; */
+    position: absolute;
+    width: 15%;
+    left: 89%;
+    top: 0%;
+  animation: move5 3s infinite linear;
   }
-  
+  .tokenCoins{
+    animation: move4 3s infinite linear;
+  }
