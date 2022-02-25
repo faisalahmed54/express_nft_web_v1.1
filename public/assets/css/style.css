@@ -3670,7 +3670,7 @@ span.type::after {
 
 #assets {
     text-shadow: 2px 3px #000;
-    background: url(../example_images/ocean_opt.jpg)center center fixed no-repeat;
+    /* background: url(../example_images/ocean_opt.jpg)center center fixed no-repeat; */
 }
 
 #characters {
@@ -3681,6 +3681,7 @@ span.type::after {
 #roadmap {
     text-shadow: 2px 3px #000;
     
+    /* background: #102435 !important; */
     background: #102435 !important;
 }
 
@@ -3706,4 +3707,49 @@ span.type::after {
     background: none;
     border-radius: 0%;
     box-shadow: none;
-}
+}#videoBG {
+    width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+}.video-container video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+.video-container-roadMap video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) scale(1.322);
+  }
+.coin1 {
+    /* object-fit: cover; */
+    position: absolute;
+    width: 15%;
+    top: -22%;
+  animation: move5 3s infinite linear;
+  }
+  .coin2 {
+    /* object-fit: cover; */
+    position: absolute;
+    width: 15%;
+    left: 89%;
+    top: 0%;
+  animation: move5 3s infinite linear;
+  }
+  
