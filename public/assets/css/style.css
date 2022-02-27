@@ -3669,8 +3669,8 @@ span.type::after {
 
 .logoCustomPadding {
     position: relative;
-    top: -144px;
-    ;
+    top: -132px;
+    
     z-index: 1;
 }
 
@@ -3684,7 +3684,7 @@ span.type::after {
 
 #gameplay {
     text-shadow: 2px 2px #000;
-    background: url(../example_images/photos-001/image.png)center center fixed no-repeat;
+    /* background: url(../example_images/photos-001/image.png)center center fixed no-repeat; */
 }
 
 #assets {
@@ -3772,7 +3772,24 @@ span.type::after {
     left: 89%;
     top: 0%;
   animation: move5 3s infinite linear;
-  }  .coin3 {
+  } 
+  .cat {
+    /* object-fit: cover; */
+    position: absolute;
+    width: 15%;
+    top: 0%;
+    left: 17%;
+  animation: move5 3s infinite linear;
+  } 
+  .dog {
+    /* object-fit: cover; */
+    position: absolute;
+    width: 15%;
+    left: 89%;
+    top: 0%;
+  animation: move5 3s infinite linear;
+  } 
+   .coin3 {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
