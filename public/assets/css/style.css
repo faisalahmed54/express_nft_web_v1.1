@@ -3648,6 +3648,7 @@ span.type::after {
     background: transparent !important;
     box-shadow: none !important;
 }
+
 .characters_image {
     width: 439px !important;
     animation: move2 2s infinite linear;
@@ -3657,6 +3658,7 @@ span.type::after {
     background: transparent !important;
     box-shadow: none !important;
 }
+
 .assets_image {
     width: 439px !important;
     animation: move3 2s infinite linear;
@@ -3670,7 +3672,7 @@ span.type::after {
 .logoCustomPadding {
     position: relative;
     top: -132px;
-    
+    margin-bottom: 11% !important;
     z-index: 1;
 }
 
@@ -3694,16 +3696,15 @@ span.type::after {
 
 #characters {
     text-shadow: 2px 3px #000;
-    background:url(../example_images/grass_and_well_concept_MEDIUM_RES-min.jpg)center center fixed no-repeat; 
+    background: url(../example_images/grass_and_well_concept_MEDIUM_RES-min.jpg)center center fixed no-repeat;
     /* background: #0C324F !important; */
 }
+
 #roadmap {
     text-shadow: 2px 3px #000;
-    
     /* background: #102435 !important; */
     /* background: #102435 !important; */
     background: url(../example_images/JUNGLE_concept_FINAL_opt.jpg)center center fixed no-repeat;
-
 }
 
 #token {
@@ -3728,18 +3729,21 @@ span.type::after {
     background: none;
     border-radius: 0%;
     box-shadow: none;
-}#videoBG {
-    width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+}
 
-}.video-container video {
+#videoBG {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video-container video {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -3747,8 +3751,8 @@ span.type::after {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-  }
-  
+}
+
 .video-container-roadMap video {
     object-fit: cover;
     width: 100%;
@@ -3757,46 +3761,52 @@ span.type::after {
     top: 46%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%) scale(1.322);
-  }
+}
+
 .coin1 {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
     top: -22%;
-  animation: move5 3s infinite linear;
-  }
-  .coin2 {
+    animation: move5 3s infinite linear;
+}
+
+.coin2 {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
     left: 89%;
     top: 0%;
-  animation: move5 3s infinite linear;
-  } 
-  .cat {
+    animation: move5 3s infinite linear;
+}
+
+.cat {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
     top: 0%;
     left: 17%;
-  animation: move5 3s infinite linear;
-  } 
-  .dog {
+    animation: move5 3s infinite linear;
+}
+
+.dog {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
     left: 89%;
     top: 0%;
-  animation: move5 3s infinite linear;
-  } 
-   .coin3 {
+    animation: move5 3s infinite linear;
+}
+
+.coin3 {
     /* object-fit: cover; */
     position: absolute;
     width: 15%;
     left: 89%;
     top: 0%;
-  animation: move5 3s infinite linear;
-  }
-  .tokenCoins{
+    animation: move5 3s infinite linear;
+}
+
+.tokenCoins {
     animation: move4 3s infinite linear;
-  }
+}
