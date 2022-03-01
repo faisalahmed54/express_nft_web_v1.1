@@ -33,18 +33,17 @@
 }
 
 .preload-container {
-    position  : relative;
-    width     : 100%;
-    height    : 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
     background: #EF670A;
-
-    position  : fixed;
-    top       : 0;
-    bottom    : 0;
-    right     : 0;
-    left      : 0;
-    z-index   : 99999999999;
-    display   : block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999999;
+    display: block;
     overflow: hidden;
 }
 
@@ -1757,7 +1756,7 @@
 .flat-title-page {
     position: relative;
     /* background: url(../example_images/JUNGLE_concept_FINAL_opt.jpg)center center fixed no-repeat; */
-    background: url(../example_images/Jungle.mp4);
+    /* background: url(../example_images/Jungle.mp4); */
     background-size: cover;
     padding: 100px 0 99px;
 }

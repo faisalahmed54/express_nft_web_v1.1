@@ -3715,6 +3715,7 @@ span.type::after {
 
 #technology {
     text-shadow: 2px 3px #000;
+    background: #0a3b5e !important
     /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
 }
 
