@@ -2972,6 +2972,9 @@ span.type::after {
   /* text-shadow: 2px 3px #000; */ /* background:url(../example_images/photos-001/image1.png) ; */
   background: #102435 !important;
 }
+#team{
+  background: #0c324f  !important;
+}
 .sc-card-product-custom {
   padding: 0px !important;
   background: none;
