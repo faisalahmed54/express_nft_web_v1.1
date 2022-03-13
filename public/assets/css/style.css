@@ -2958,15 +2958,15 @@ span.type::after {
 }
 #token {
   text-shadow: 2px 3px #000;
-  background: #102435 !important; /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
+  background: #0a3b5e !important; /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
 }
 #technology {
   text-shadow: 2px 3px #000;
-  background: #0a3b5e !important; /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
+  background: #102435 !important; /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
 }
 #tokennomics {
   text-shadow: 2px 3px #000;
-  background: #0a3b5e !important; /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
+  background: #102435 !important; /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
 }
 #faq {
   /* text-shadow: 2px 3px #000; */ /* background:url(../example_images/photos-001/image1.png) ; */
