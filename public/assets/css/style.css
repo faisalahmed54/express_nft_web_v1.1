@@ -2004,7 +2004,7 @@ header {
 } /* Footer-------------------------------------------------------------- */
 #footer {
   padding: 80px 0 80px;
-  background-color: #0c324f !important; /* background-color: #fff; */
+  background-color: #102435 !important; /* background-color: #fff; */
 }
 #footer.style-2 {
   background-color: #ffffff;
@@ -2960,6 +2960,10 @@ span.type::after {
   text-shadow: 2px 3px #000;
   background: #0a3b5e !important; /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
 }
+#audit {
+  text-shadow: 2px 3px #000;
+  background: #0a3b5e !important; /* background:url(../example_images/photos-001/image4.png)center center fixed no-repeat; */
+}
 #technology {
   text-shadow: 2px 3px #000;
   background: #102435 !important; /* background:url(../example_images/photos-001/image5.png)center center fixed no-repeat; */
@@ -2970,10 +2974,10 @@ span.type::after {
 }
 #faq {
   /* text-shadow: 2px 3px #000; */ /* background:url(../example_images/photos-001/image1.png) ; */
-  background: #102435 !important;
+  background: #0a3b5e !important;
 }
 #team{
-  background: #0c324f  !important;
+  background: #102435  !important;
 }
 .sc-card-product-custom {
   padding: 0px !important;
